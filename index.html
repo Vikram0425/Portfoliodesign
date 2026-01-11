@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vikram R | Mechanical Designer</title>
 
   <!-- Font Awesome (same icon style as reference site) -->
@@ -13,21 +14,23 @@
 <body>
 
 <!-- ================= NAVBAR ================= -->
-<header class="navbar">
+<nav class="navbar" role="navigation" aria-label="Main navigation">
   <div class="logo">VR</div>
-  <nav>
-    <a href="#home"><i class="fa fa-house"></i> Home</a>
-    <a href="#about"><i class="fa fa-user"></i> About</a>
-    <a href="#education"><i class="fa fa-graduation-cap"></i> Education</a>
-    <a href="#projects"><i class="fa fa-diagram-project"></i> Projects</a>
-    <a href="#skills"><i class="fa fa-gears"></i> Skills & Expertise</a>
-    <a href="#achievements"><i class="fa fa-trophy"></i> Achievements</a>
-    <a href="#contact" class="contact-btn">
-      <i class="fa fa-envelope"></i> Contact
-    </a>
-  </nav>
-</header>
+  <ul role="list">
+    <li><a href="#home"><i class="fa fa-house" aria-hidden="true"></i> Home</a></li>
+    <li><a href="#about"><i class="fa fa-user" aria-hidden="true"></i> About</a></li>
+    <li><a href="#education"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</a></li>
+    <li><a href="#projects"><i class="fa fa-diagram-project" aria-hidden="true"></i> Projects</a></li>
+    <li><a href="#skills"><i class="fa fa-gears" aria-hidden="true"></i> Skills & Expertise</a></li>
+    <li><a href="#achievements"><i class="fa fa-trophy" aria-hidden="true"></i> Achievements</a></li>
+    <li><a href="#contact" class="contact-btn">
+      <i class="fa fa-envelope" aria-hidden="true"></i> Contact
+    </a></li>
+  </ul>
+</nav>
 
+<!-- ================= MAIN CONTENT ================= -->
+<main>
 <!-- ================= HOME ================= -->
 <section id="home" class="hero">
   <div class="hero-left">
@@ -44,12 +47,12 @@
     </p>
 
     <a href="documents/VIKRAM_R_Resume.pdf" class="btn" download>
-      <i class="fa fa-download"></i> Download Resume
+      <i class="fa fa-download" aria-hidden="true"></i> Download Resume
     </a>
   </div>
 
   <div class="hero-right">
-    <img src="images/profile.jpg" alt="Vikram R">
+    <img src="images/profile.jpg" alt="Profile photo of Vikram R, Mechanical Engineering student">
   </div>
 </section>
 
@@ -98,37 +101,35 @@
   <span class="underline"></span>
 
   <div class="grid-3">
-
-    <div class="project-card">
-      <img src="images/project-gokart.jpg">
+    <article class="project-card">
+      <img src="images/project-gokart.jpg" alt="Go-Kart bumper design rendering">
       <h4>Go-Kart Bumper Design</h4>
       <p>
         CAD modeling of front and rear bumpers, CFD collaboration with CAE team,
         and delivery of manufacturing-ready drawings.
       </p>
       <span>SolidWorks | CAD | Teamwork</span>
-    </div>
+    </article>
 
-    <div class="project-card">
-      <img src="images/Vertical Steam Engine.jpg">
+    <article class="project-card">
+      <img src="images/Vertical Steam Engine.jpg" alt="Vertical steam engine assembly model">
       <h4>Vertical Steam Engine</h4>
       <p>
         227-part mechanical assembly structured into sub-assemblies using
         Siemens NX. Completed full digital prototype in 1.5 weeks.
       </p>
       <span>Siemens NX | CAD</span>
-    </div>
+    </article>
 
-    <div class="project-card">
-      <img src="images/Final Assembly of Mini Project_page-0001.jpg">
+    <article class="project-card">
+      <img src="images/Final Assembly of Mini Project_page-0001.jpg" alt="Peltier cooler final assembly">
       <h4>Peltier Cooler</h4>
       <p>
         Designed a low-cost thermoelectric cooler with DFM principles and
         standard components.
       </p>
       <span>SolidWorks | DFM</span>
-    </div>
-
+    </article>
   </div>
 </section>
 
@@ -139,19 +140,19 @@
 
   <div class="skills-grid">
     <div class="skill-card">
-      <i class="fa fa-cube"></i>
+      <i class="fa fa-cube" aria-hidden="true"></i>
       <h4>CAD Modelling</h4>
       <p>AutoCAD, CATIA V5, Creo, SolidWorks, NX, Fusion 360</p>
     </div>
 
     <div class="skill-card">
-      <i class="fa fa-chart-line"></i>
+      <i class="fa fa-chart-line" aria-hidden="true"></i>
       <h4>CAE Simulation</h4>
       <p>ANSYS Workbench, SolidWorks Simulation</p>
     </div>
 
     <div class="skill-card">
-      <i class="fa fa-print"></i>
+      <i class="fa fa-print" aria-hidden="true"></i>
       <h4>Slicing Software</h4>
       <p>Ultimaker Cura</p>
     </div>
@@ -164,25 +165,23 @@
   <span class="underline"></span>
 
   <div class="grid-3">
-
     <div class="card">
-      <i class="fa fa-lightbulb"></i>
+      <i class="fa fa-lightbulb" aria-hidden="true"></i>
       <h4>IDEATHON</h4>
       <p>5th Place Winner</p>
     </div>
 
     <div class="card">
-      <i class="fa fa-trophy"></i>
+      <i class="fa fa-trophy" aria-hidden="true"></i>
       <h4>National Level KRC</h4>
       <p>Overall Runners – Season 3</p>
     </div>
 
     <div class="card">
-      <i class="fa fa-award"></i>
+      <i class="fa fa-award" aria-hidden="true"></i>
       <h4>CAD Design Event</h4>
       <p>1st Place Winner</p>
     </div>
-
   </div>
 </section>
 
@@ -192,28 +191,27 @@
   <span class="underline"></span>
 
   <div class="contact-grid">
-
     <div class="contact-card">
-      <i class="fa fa-envelope"></i>
+      <i class="fa fa-envelope" aria-hidden="true"></i>
       <p>mechvikram225@gmail.com</p>
     </div>
 
     <div class="contact-card">
-      <i class="fa fa-phone"></i>
+      <i class="fa fa-phone" aria-hidden="true"></i>
       <p>+91 9344423169</p>
     </div>
 
     <div class="contact-card">
-      <i class="fa fa-linkedin"></i>
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
       <p>vikram-r-mech</p>
     </div>
-
   </div>
 
   <a href="documents/VIKRAM_R_Resume.pdf" class="btn" download>
-    <i class="fa fa-download"></i> Download Resume
+    <i class="fa fa-download" aria-hidden="true"></i> Download Resume
   </a>
 </section>
+</main>
 
 </body>
 </html>
