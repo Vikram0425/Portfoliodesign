@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  color: #111;
+  background: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  padding: 16px 60px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.navbar a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+.contact-btn {
+  background: #0b3c5d;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 80px 60px;
+}
+
+.hero-left h1 {
+  font-size: 44px;
+  color: #0b3c5d;
+}
+
+.hero-left h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.hero-left p {
+  max-width: 600px;
+  color: #444;
+}
+
+.hero-right img {
+  width: 280px;
+  border-radius: 14px;
+  margin-left: 60px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 80px 60px;
+}
+
+.light-bg {
+  background: #f5f7fa;
+}
+
+.section h3 {
+  text-align: center;
+  font-size: 30px;
+  color: #0b3c5d;
+}
+
+.underline {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #0b3c5d;
+  margin: 10px auto 40px;
+}
+
+/* GRID */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+/* CARDS */
+.card, .project-card, .skill-card, .contact-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  background: #0b3c5d;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 10px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+/* CONTACT */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
