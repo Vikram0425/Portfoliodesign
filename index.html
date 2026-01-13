@@ -1,221 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Vikram R | Mechanical Designer</title>
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-  <!-- MAIN CSS -->
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
-
 <body>
 
-<!-- ================= NAVBAR ================= -->
-<header class="navbar">
-  <div class="container">
-    <div class="logo">VR</div>
-    <nav>
-      <a href="#home"><i class="fa fa-house"></i> Home</a>
-      <a href="#about"><i class="fa fa-user"></i> About</a>
-      <a href="#education"><i class="fa fa-graduation-cap"></i> Education</a>
-      <a href="#projects"><i class="fa fa-diagram-project"></i> Projects</a>
-      <a href="#skills"><i class="fa fa-gears"></i> Skills & Expertise</a>
-      <a href="#achievements"><i class="fa fa-trophy"></i> Achievements</a>
-      <a href="#contact" class="contact-btn">
-        <i class="fa fa-envelope"></i> Contact
-      </a>
-    </nav>
-  </div>
-</header>
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <img src="assets/images/profile.jpg" alt="Vikram R" class="profile-img">
+      <h1>Vikram R</h1>
+      <h2>Mechanical Designer | CAD & Additive Manufacturing</h2>
+      <p>Passionate about transforming conceptual ideas into tangible design-to-manufacture solutions.</p>
+    </div>
+  </section>
 
-
-<!-- ================= MAIN CONTENT ================= -->
-<main>
-<!-- ================= HOME ================= -->
-<section id="home" class="hero">
-  <div class="hero-left">
-    <h1>VIKRAM R</h1>
-    <h2>Mechanical Engineering Student | Mechanical Designer</h2>
-
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <h3>About Me</h3>
     <p>
-      Driven Mechanical Engineer with practical expertise in CAD modelling,
-      3D printing, and Go-Kart design. Passionate about transforming conceptual
-      ideas into tangible manufacturing components.
-      <br><br>
-      Seeking roles in <b>Product Design</b> and <b>3D Printing</b>
-      using slicing software.
+      I am a Mechanical Designer with strong expertise in CAD modeling, product design, and
+      manufacturing-oriented development. I enjoy converting ideas into functional, manufacturable components.
     </p>
+  </section>
 
-    <a href="documents/VIKRAM_R_Resume.pdf" class="btn" download>
-      <i class="fa fa-download" aria-hidden="true"></i> Download Resume
-    </a>
-  </div>
+  <!-- ===== SKILLS ===== -->
+  <section class="section dark" id="skills">
+    <h3>Skills</h3>
 
-  <div class="hero-right">
-    <img src="images/profile.jpg" alt="Profile photo of Vikram R, Mechanical Engineering student">
-  </div>
-</section>
+    <div class="skills-grid">
+      <div>
+        <h4>CAD Tools</h4>
+        <p>SolidWorks, CATIA V5, PTC Creo, Siemens NX, Fusion 360</p>
+      </div>
 
-<!-- ================= ABOUT ================= -->
-<section id="about" class="section">
-  <h3>About Me</h3>
-  <span class="underline"></span>
+      <div>
+        <h4>CAE (Basic)</h4>
+        <p>SolidWorks Simulation</p>
+      </div>
 
-  <p class="center-text">
-    Mechanical Engineering student with strong interest in CAD-based product
-    development, additive manufacturing, and design for manufacturing.
-    Comfortable working in collaborative engineering teams and delivering
-    production-ready models.
-  </p>
-</section>
+      <div>
+        <h4>Manufacturing</h4>
+        <p>Additive Manufacturing, Design for Manufacturing (DFM)</p>
+      </div>
+    </div>
+  </section>
 
-<!-- ================= EDUCATION ================= -->
-<section id="education" class="section light-bg">
-  <h3>Education</h3>
-  <span class="underline"></span>
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <h3>Projects</h3>
 
-  <div class="grid-3">
-    <div class="card">
-      <h4>B.E Mechanical Engineering</h4>
-      <p>Panimalar Engineering College</p>
-      <span>2022 – 2026 | CGPA: 8.55</span>
+    <div class="project-card">
+      <img src="assets/images/project1.jpg" alt="Thermoelectric Refrigerator">
+      <h4>Thermoelectric Refrigerator</h4>
+      <p>Designed an affordable and compact thermoelectric cooling system using CAD tools.</p>
     </div>
 
-    <div class="card">
-      <h4>HSC – State Board</h4>
-      <p>Vidyaa Vikas Boys MHSS</p>
-      <span>2022 | 73.84%</span>
+    <div class="project-card">
+      <img src="assets/images/project2.jpg" alt="Boiler Feed Regulator">
+      <h4>Boiler Feed Regulator & Check Valve</h4>
+      <p>Mechanical system designed using AutoCAD focusing on flow control and safety.</p>
     </div>
+  </section>
 
-    <div class="card">
-      <h4>SSLC – State Board</h4>
-      <p>Vidyaa Vikas Boys MHSS</p>
-      <span>2020 | 92.40%</span>
-    </div>
-  </div>
-</section>
+  <!-- ===== SERVICES ===== -->
+  <section class="section dark" id="services">
+    <h3>Services</h3>
+    <ul class="services-list">
+      <li>CAD Modeling & Drafting</li>
+      <li>Product Design & Concept Development</li>
+      <li>Design for Manufacturing (DFM)</li>
+      <li>3D Printing & Additive Manufacturing Support</li>
+    </ul>
+  </section>
 
-<!-- ================= PROJECTS ================= -->
-<section id="projects" class="section">
-  <h3>Projects</h3>
-  <span class="underline"></span>
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <h3>Contact</h3>
 
-  <div class="grid-3">
-    <article class="project-card">
-      <img src="images/project-gokart.jpg" alt="Go-Kart bumper design rendering">
-      <h4>Go-Kart Bumper Design</h4>
-      <p>
-        CAD modeling of front and rear bumpers, CFD collaboration with CAE team,
-        and delivery of manufacturing-ready drawings.
+    <div class="contact-info">
+      <p><i class="fas fa-envelope"></i> mechvikram225@gmail.com</p>
+      <p><i class="fas fa-phone"></i> +91 93444 23169</p>
+      <p><i class="fab fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/vikram-r-mech" target="_blank">LinkedIn</a>
       </p>
-      <span>SolidWorks | CAD | Teamwork</span>
-    </article>
-
-    <article class="project-card">
-      <img src="images/Vertical Steam Engine.jpg" alt="Vertical steam engine assembly model">
-      <h4>Vertical Steam Engine</h4>
-      <p>
-        227-part mechanical assembly structured into sub-assemblies using
-        Siemens NX. Completed full digital prototype in 1.5 weeks.
+      <p><i class="fab fa-github"></i>
+        <a href="https://github.com/Vikram0425" target="_blank">GitHub</a>
       </p>
-      <span>Siemens NX | CAD</span>
-    </article>
-
-    <article class="project-card">
-      <img src="images/Final Assembly of Mini Project_page-0001.jpg" alt="Peltier cooler final assembly">
-      <h4>Peltier Cooler</h4>
-      <p>
-        Designed a low-cost thermoelectric cooler with DFM principles and
-        standard components.
-      </p>
-      <span>SolidWorks | DFM</span>
-    </article>
-  </div>
-</section>
-
-<!-- ================= SKILLS ================= -->
-<section id="skills" class="section light-bg">
-  <h3>Skills & Expertise</h3>
-  <span class="underline"></span>
-
-  <div class="skills-grid">
-    <div class="skill-card">
-      <i class="fa fa-cube" aria-hidden="true"></i>
-      <h4>CAD Modelling</h4>
-      <p>AutoCAD, CATIA V5, Creo, SolidWorks, NX, Fusion 360</p>
     </div>
+  </section>
 
-    <div class="skill-card">
-      <i class="fa fa-chart-line" aria-hidden="true"></i>
-      <h4>CAE Simulation</h4>
-      <p>ANSYS Workbench, SolidWorks Simulation</p>
-    </div>
-
-    <div class="skill-card">
-      <i class="fa fa-print" aria-hidden="true"></i>
-      <h4>Slicing Software</h4>
-      <p>Ultimaker Cura</p>
-    </div>
-  </div>
-</section>
-
-<!-- ================= ACHIEVEMENTS ================= -->
-<section id="achievements" class="section">
-  <h3>Achievements</h3>
-  <span class="underline"></span>
-
-  <div class="grid-3">
-    <div class="card">
-      <i class="fa fa-lightbulb" aria-hidden="true"></i>
-      <h4>IDEATHON</h4>
-      <p>5th Place Winner</p>
-    </div>
-
-    <div class="card">
-      <i class="fa fa-trophy" aria-hidden="true"></i>
-      <h4>National Level KRC</h4>
-      <p>Overall Runners – Season 3</p>
-    </div>
-
-    <div class="card">
-      <i class="fa fa-award" aria-hidden="true"></i>
-      <h4>CAD Design Event</h4>
-      <p>1st Place Winner</p>
-    </div>
-  </div>
-</section>
-
-<!-- ================= CONTACT ================= -->
-<section id="contact" class="section light-bg">
-  <h3>Get In Touch</h3>
-  <span class="underline"></span>
-
-  <div class="contact-grid">
-    <div class="contact-card">
-      <i class="fa fa-envelope" aria-hidden="true"></i>
-      <p>mechvikram225@gmail.com</p>
-    </div>
-
-    <div class="contact-card">
-      <i class="fa fa-phone" aria-hidden="true"></i>
-      <p>+91 9344423169</p>
-    </div>
-
-    <div class="contact-card">
-      <i class="fa fa-linkedin" aria-hidden="true"></i>
-      <p>vikram-r-mech</p>
-    </div>
-  </div>
-
-  <a href="documents/VIKRAM_R_Resume.pdf" class="btn" download>
-    <i class="fa fa-download" aria-hidden="true"></i> Download Resume
-  </a>
-</section>
-</main>
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2026 Vikram R | Mechanical Designer</p>
+  </footer>
 
 </body>
 </html>
